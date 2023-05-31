@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {margin:0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: x-large; background-color:rgb(0, 0, 0); background-image: url('tower2.png'); background-repeat: no-repeat; background-attachment: fixed; background-position-x: right; cursor: default;}
+        h1 {color: #ffbb00; text-align: center; padding-top: 50px; scroll-margin-top: 50px;}
+        h3 {color: #ffcb3c; text-align: center; scroll-margin-top: 60px;}
+        p {color: #f2d073; text-align: center;}
+        span {color: #f2d073; background-color: black; display:table; margin-left: auto; margin-right: auto;}
+        .under {border: solid 2px; border-color: #f2d073; padding: 2px; text-decoration: none;}
+        a {text-decoration: underline;}
+        a:hover {cursor: pointer;}
+
+        .centered_button {display: block; width: 100px; margin: 0 auto;}
+        button {font-size: large; color: rgb(0, 0, 0); background-color: #f2d073; border-color: black; cursor: pointer; border-radius: 7px; transition: all 0.5s; padding: 5px;}
+        button:hover {background-color: #fffcf5; color: black;}
+
+        table, th, td {border: 1px solid #f2d073;}
+        th, td {padding: 8px;}
+        .big_table{border: 0px; margin-left: auto; margin-right: auto;}
+        .center_table{margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0); color: #f2d073; margin-top: 20px;}
+
+        .navbar {display: flex; justify-content: space-around; align-items: center; background-color: #ffcb3c; position: fixed; overflow: hidden; width: 100%; top: 0;}
+        .navbar a {float: left; display:block; text-align: center; padding: 14px 16px; text-decoration: none; transition: all 0.5s;}
+        .navbar a:hover {background: #fffcf5; color: black; cursor: pointer;}
+        
+        .center_image {display: block; margin-left: auto; margin-right: auto; width: 15%;}
+    </style>
+    <head>
+        <title>Resources Utiles</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class ="navbar">
+            <a onClick="document.getElementById('home').scrollIntoView();"><strong>Accueil</strong></a>
+            <a onClick="document.getElementById('passe_a').scrollIntoView();">Passé Composé Avoir</a> 
+            <a onClick="document.getElementById('passe_e').scrollIntoView();">Passé Composé Être</a> 
+            <a onClick="document.getElementById('present').scrollIntoView();">Present</a>
+            <a onClick="document.getElementById('reflexive').scrollIntoView();">Verbes Réfléchi</a>
+            <a onClick="document.getElementById('futur_p').scrollIntoView();">Futur Proche</a>
+            <a onClick="document.getElementById('futur_s').scrollIntoView();">Futur Simple</a>
+            <a onClick="document.getElementById('masc_fem').scrollIntoView();">L'Accord</a>
+            <a onClick="document.getElementById('recs').scrollIntoView();">Recommandations</a>
+            <a onClick="document.getElementById('links').scrollIntoView();">Liens</a>
+        </div>
+        
+        <h1 id="home">Les Resources Utiles</h1>
+        <p>Le français est difficile, alors j'ai créé un site web avec les conseils utiles. Ici, tu as l'accès à toutes les ressources les plus importantes.</p>
+
+        <h3>Plan du Cours</h3>
+            <table class="center_table" style = "outline: 0px;">
+                <tr>
+                    <td><strong>La Francophonie et Moi</strong></td>
+                    <td><strong>Le Bon Voyage</strong></td>
+                    <td><strong>La Bonne Bouffe</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a onClick="document.getElementById('present').scrollIntoView();">Verbes Présent Réguliers + Irréguliers</a> <br>
+                        Pronoms personnels <br>
+                        Mots Interrogatifs <br>
+                        <a onClick="document.getElementById('masc_fem').scrollIntoView();">Adjectifs Possessifs</a> <br>
+                        Jouer à/Faire de <br>
+                        <a onClick="document.getElementById('reflexive').scrollIntoView();">Les Verbes Réfléchi</a>
+                    </td>
+                    <td>
+                        <a onClick="document.getElementById('futur_p').scrollIntoView();">Futur Proche</a> <br>
+                        <a onClick="document.getElementById('futur_s').scrollIntoView();">Futur Simple</a> <br>
+                        Les Prépositions Géographiques
+                    </td>
+                    <td>
+                        Le Comparatif et Le Superlatif <br>
+                        <a onClick="document.getElementById('passe_a').scrollIntoView();">Passé Composé avec Avoir</a>  <br>
+                        <a onClick="document.getElementById('passe_e').scrollIntoView();">Passé Composé avec Être</a>  <br>
+                        L'Article Partitif <br>
+                        L'Impératif
+                    </td>
+                </tr>
+            </table>
+
+        <h3 id="passe_a" type="submit">Le Passé Composé avec Avoir</h3>
+        <p>La structure des phrases au passé composé avec avoir est: </p>
+        <p><u class="under">Le sujet</u> + <u class="under">avoir ou être conjugué au present</u> + <u class="under">le participe passé</u></p>
+        <p>Voici les verbes être et avoir au present:</p>
+        <table class= "center_table">
+            <tr>
+                <td><strong>Avoir</strong></td>
+                <td><strong>Être</strong></td>
+            </tr>
+            <tr>
+                <td>J'<strong>ai</strong></td>
+                <td>Je <strong>suis</strong></td>
+            </tr>
+            <tr>
+                <td>Tu <strong>as</strong></td>
+                <td>Tu <strong>es</strong></td>
+            </tr>
+            <tr>
+                <td>Il/Elle/On <strong>a</strong></td>
+                <td>Il/Elle/On <strong>est</strong></td>
+            </tr>
+            <tr>
+                <td>Nous <strong>avons</strong></td>
+                <td>Nous <strong>sommes</s</td>
+            </tr>
+            <tr>
+                <td>Vous <strong>avez</strong></td>
+                <td>Vous <strong>êtes</strong></td>
+            </tr>
+            <tr>
+                <td>Ils/Elles <strong>ont</strong></td>
+                <td>Ils/Elles <strong>sont</strong></td>
+            </tr>
+        </table>
+        <span  style="margin-top: 40px;">Au passé composé, la plupart des verbes sont conjugués avec la verbe "avoir". Ils sont conjuges come ça:</span>>
+        <table class= "center_table">
+            <tr>
+                <td><strong>Terminaison en l'Infinitif</strong></td>
+                <td><strong>Terminaison au Passé Composé</strong></td>
+            </tr>
+            <tr>
+                <td>-er</td>
+                <td>-é</td>
+            </tr>
+            <tr>
+                <td>-ir</td>
+                <td>-i</td>
+            </tr>
+            <tr>
+                <td>-re</td>
+                <td>-u</td>
+            </tr>
+        </table>
+
+        <p>Quelques verbes ne conjugues pas avec ce regle. Ils sont celles-ci:<p>
+            <table class= "center_table">
+                <tr>
+                    <td><strong>Verbe au Infinitif</strong></td>
+                    <td><strong>Verbe au Present</strong></td>
+                </tr>
+                <tr>
+                    <td>Être</td>
+                    <td>Été</td>
+                </tr>
+                <tr>
+                    <td>Faire</td>
+                    <td>Fait</td>
+                </tr>
+                <tr>
+                    <td>Avoir</td>
+                    <td>Eu</td>
+                </tr>
+                <tr>
+                    <td>Voir</td>
+                    <td>Vu</td>
+                </tr>
+                <tr>
+                    <td>Boire</td>
+                    <td>Bu</td>
+                </tr>
+                <tr>
+                    <td>Connaître</td>
+                    <td>Connu</td>
+                </tr>
+                <tr>
+                    <td>Croire</td>
+                    <td>Cru</td>
+                </tr>
+                <tr>
+                    <td>Devoir</td>
+                    <td>Dû</td>
+                </tr>
+                <tr>
+                    <td>Lire</td>
+                    <td>Lu</td>
+                </tr>
+                <tr>
+                    <td>Pleuvoire</td>
+                    <td>Plu</td>
+                </tr>
+                <tr>
+                    <td>Pouvoir</td>
+                    <td>Pu</td>
+                </tr>
+                <tr>
+                    <td>Recevoir</td>
+                    <td>Reçu</td>
+                </tr>
+                <tr>
+                    <td>Savoir</td>
+                    <td>Su</td>
+                </tr>
+                <tr>
+                    <td>Vouloir</td>
+                    <td>Voulu</td>
+                </tr>
+                <tr>
+                    <td>Mettre</td>
+                    <td>Mis</td>
+                </tr>
+                <tr>
+                    <td>Prendre</td>
+                    <td>Pris</td>
+                </tr>
+                <tr>
+                    <td>Conduire</td>
+                    <td>Conduit</td>
+                </tr>
+                <tr>
+                    <td>Dire</td>
+                    <td>Dit</td>
+                </tr>
+                <tr>
+                    <td>Écrire</td>
+                    <td>Écrit</td>
+                </tr>
+                <tr>
+                    <td>Offrir</td>
+                    <td>Offert</td>
+                </tr>
+                <tr>
+                    <td>Ouvrir</td>
+                    <td>Ouvert</td>
+                </tr>
+            </table>
+        
+            <h3 id="passe_e" type="submit">Le Passé Composé avec Être</h3>
+            <p style="margin-bottom: 0px;">La structure des phrases au passé composé avec être est:</p>
+            <span style="padding-top: 20px"><u class="under">Le sujet</u> + <u class="under">avoir ou être conjugué au present</u> + <u class="under">le participe passé</u> + <u class="under">l'accord feminin ou pluriel &#40;si tu utilise l'être&#41;</u></span>
+            <p>Il y a quelques verbes qui sont conjugués avec "être". Ils sont si-dessous:</p>
+            <table class= "center_table">
+                <td>
+                    D: Devenir<br>
+                    R: Revenir<br>
+                    <br>
+                    M: Monter<br>
+                    R: Retourner<br>
+                    S: Sortir<br>
+                    <br>
+                    V: Venir<br>
+                    A: Aller<br>
+                    N: Naître<br>
+                    D: Descendre<br>
+                    E: Entrer<br>
+                    R: Rester<br>
+                    T: Tomber<br>
+                    R: Rentrer<br>
+                    A: Arriver<br>
+                    M: Mourir<br>
+                    P: Partir
+                </td>
+            </table>
+            <p>Les verbes réfléchi sont conjugués comme un verbe "être" aussi.</p>
+        
+            <h3 id="present" type="submit">Le Present</h3>
+            <p>Voici les terminaisons des verbes au present:</p>
+            <table class="big_table">
+                <td class="big_table">
+                    <table class="center_table">
+                        <tr>
+                            <th><strong>Pronom</strong></th>
+                            <th><strong>-ER</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Je</td>
+                            <td>-e</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td>-es</td>
+                        </tr>
+                        <tr>
+                            <td>Il/Elle/On</td>
+                            <td>-e</td>
+                            </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td>-ons</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td>-ez</td>
+                        </tr>
+                        <tr>
+                            <td>Ils/Elles</td>
+                            <td>-ent</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="big_table">
+                    <table class="center_table">
+                        <tr>
+                            <th><strong>Pronom</strong></th>
+                            <th><strong>-IR</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Je</td>
+                            <td>-is/-s</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td>-is/-s</td>
+                        </tr>
+                        <tr>
+                            <td>Il/Elle/On</td>
+                            <td>-it/-t</td>
+                            </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td>-issons/-ons</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td>-issez/-ez</td>
+                        </tr>
+                        <tr>
+                            <td>Ils/Elles</td>
+                            <td>-issent/-ent</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="big_table">
+                    <table class="center_table">
+                        <tr>
+                            <th><strong>Pronom</strong></th>
+                            <th><strong>-RE</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Je</td>
+                            <td>-s</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td>-s</td>
+                        </tr>
+                        <tr>
+                            <td>Il/Elle/On</td>
+                            <td>-t/-</td>
+                            </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td>-ons</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td>-ez</td>
+                        </tr>
+                        <tr>
+                            <td>Ils/Elles</td>
+                            <td>-ent</td>
+                        </tr>
+                    </table>
+                </td>
+            </table>
+
+            <h3 id="futur_s" type="submit">Le Futur Simple</h3>
+            <p>Voici les terminaisons des verbes au future simple:</p>
+            <table class="center_table">
+                <tr>
+                    <th><strong>Pronom</strong></th>
+                    <th><strong>Terminaison</strong></th>
+                </tr>
+                <tr>
+                    <td>Je</td>
+                    <td>-ai</td>
+                </tr>
+                <tr>
+                    <td>Tu</td>
+                    <td>-as</td>
+                </tr>
+                <tr>
+                    <td>Il/Elle/On</td>
+                    <td>-a</td>
+                    </tr>
+                <tr>
+                    <td>Nous</td>
+                    <td>-ons</td>
+                </tr>
+                <tr>
+                    <td>Vous</td>
+                    <td>-ez</td>
+                </tr>
+                <tr>
+                    <td>Ils/Elles</td>
+                    <td>-ont</td>
+                </tr>
+            </table>
+            <p>Pour les verbes -er et -ir, ajouter les terminaisons au fin de le mot. <br> Je dancer &#8594; Je danser<strong>ai</strong></p>
+            <p>Pour les verbes -re, abandonner le "e" et ajouter la terminaison. <br> Je prendre &#8594; Je prendr<strong>ai</strong></p>
+
+            <h3 id="futur_p" type="submit">Le Futur Proche</h3>
+            <p>Le Futur Proche est vraiment facile. La structure de la phrase est: </p>
+            <p><u class="under">Le sujet</u> + <u class="under">aller au présent</u> + <u class="under">le verbe à l'infinitif</u></p>
+            <table class="center_table">
+                <tr>
+                    <td><strong>Pronom</strong></td>
+                    <td><strong>Aller au Présent</strong></td>
+                </tr>
+                <tr>
+                    <td>Je</td>
+                    <td>Vais</td>
+                </tr>
+                <tr>
+                    <td>Tu</td>
+                    <td>Vas</td>
+                </tr>
+                <tr>
+                    <td>Il/Elle/On</td>
+                    <td>Va</td>
+                </tr>
+                <tr>
+                    <td>Nous</td>
+                    <td>Allons</td>
+                </tr>
+                <tr>
+                    <td>Vous</td>
+                    <td>Allez</td>
+                </tr>
+                <tr>
+                    <td>Ils/Elles</td>
+                    <td>Vont</td>
+                </tr>
+            </table>
+
+            <h3 id="reflexive" type="submit">Verbes Réfléchi</h3>
+            <span>Les verbes réfléchis ont deux parties: le pronom réfléchi et le verbe. Voici une liste des pronoms réfléchi:</span>
+            <table class="center_table">
+                <tr>
+                    <td><strong>Sujet</strong></td>
+                    <td><strong>Pronom</strong></td>
+                </tr>
+                <tr>
+                    <td>Je</td>
+                    <td>Me/M'</td>
+                </tr>
+                <tr>
+                    <td>Tu</td>
+                    <td>Te/T'</td>
+                </tr>
+                <tr>
+                    <td>Il/Elle/On</td>
+                    <td>Se/S'</td>
+                </tr>
+                <tr>
+                    <td>Nous</td>
+                    <td>Nous</td>
+                </tr>
+                <tr>
+                    <td>Vous</td>
+                    <td>Vous</td>
+                </tr>
+                <tr>
+                    <td>Ils/Elles</td>
+                    <td>Se/S'</td>
+                </tr>
+            </table>
+            
+            <h3 id="masc_fem" type="submit">L'Accord</h3>
+            <p>Un adjectif doit avoir l'accord avec le nom.</p>
+            <p>Les mots qui finissent avec "e" ou "ion" sont typiquement féminins et les mots qui finissent avec <br> "age", "ege", "é", "isme" ou quelque chose pas dans cette liste sont typiquement masculines.</p>
+            <p>Voici un guide pour changer les mots singuliers au pluriel en utilisent les terminaisons.</p>
+            <table class="center_table">
+                <tr>
+                    <td><strong>Singulier</strong></td>
+                    <td><strong>Pluriel</strong></td>
+                </tr>
+                <tr>
+                    <td>-s, -x, -z</td>
+                    <td>Ne change pas</td>
+                </tr>
+                <tr>
+                    <td>-al</td>
+                    <td>-aux</td>
+                </tr>
+                <tr>
+                    <td>-u</td>
+                    <td>-ux</td>
+                </tr>
+                <tr>
+                    <td>Nom composé</td>
+                    <td>Pluriel irrégulier</td>
+                </tr>
+            </table>
+            <p>La plupart des autres noms singuliers finissent aves -s dans leur pluriel.</p>
+
+            <h3 id="recs" type="submit">Recommandations Français</h3>
+            <span>Une bonne façon d'étudier le français est d'écouter de la musique ou parole française et lire les livres français.</span>
+            <p>Voici des recommandations pour les médias français:</p>
+            <table class="big_table">
+                <td style="border: 0px; text-align-last: left">
+                    <p><a href="https://www.radiofrance.fr/francemusique" style="color: #f2d073;">RadioFrance</a> est une site avec la musique française.</p>
+                    <p><a href="https://open.spotify.com/playlist/37i9dQZF1DWTJSgpZmw7H2" style="color: #f2d073;">Ici</a> il y a un cours audio français sur Spotify.</p>
+                    <p><a href="https://www.litteratureaudio.com/" style="color: #f2d073;">Litterature Audio</a> est une collection de livres audio français.</p>
+                    <p><a href="https://www.lefigaro.fr/" style="color: #f2d073;">Le Figaro</a> est un site avec les nouvelles française.</p>
+                    <p><a href="https://www.lemonde.fr/" style="color: #f2d073;">Le Monde</a> est un autre site avec les nouvelles française.</p>
+                </td>
+            </table>
+            
+            <h3 id="links" type="submit">Les Liens Utiles</h3>
+            <p><a href="https://www.bescherelle.com/" style="color: #f2d073;">Bescherelle</a> est un site web pour conjuger les verbes</p>
+            <p><a href="https://www.wordreference.com/" style="color: #f2d073;">Wordreference</a> est un site web pour traduire les mots</p>
+            <p><a href="https://bonpatron.com/en/" style="color: #f2d073;">BonPatron</a> est un site web pour t'aider avec la grammaire.</p>
+            <p>‎ </p> <!--TEMP></-->
+    </body>
